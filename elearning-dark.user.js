@@ -70,7 +70,7 @@ addCss(`
 	background-image: none !important;
 }
 
-.dropdown-menu, .dropdown-item, #page-header, #site-menu{
+.popover-region-footer-container, .popover-region-header-container, .popover-region-content-container,.dropdown-menu, .dropdown-item, #page-header, #site-menu{
 	background-color: #313244 !important;
 	color: #cdd6f4 !important;
 }
