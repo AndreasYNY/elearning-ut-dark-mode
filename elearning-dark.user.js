@@ -53,7 +53,7 @@ addCss(`
 	background-color: #585b70 !important;
 }
 
-#main-content, #region-main, .sliding-panel, #bottom-info > .bar, .section-navigation, #footer , #bottom-info, .card-footer, .box-contacts, .boxlist, .course-panel-content, .student-panel-b, student-panel-a, .card-header, .card-text, .list-group, .message, .bg-light, .bg-white, div.p-1:nth-child(2), .list-group > .list-group-item, .card-body{
+.section-inner, #main-content, #region-main, .sliding-panel, #bottom-info > .bar, .section-navigation, #footer , #bottom-info, .card-footer, .box-contacts, .boxlist, .course-panel-content, .student-panel-b, student-panel-a, .card-header, .card-text, .list-group, .message, .bg-light, .bg-white, div.p-1:nth-child(2), .list-group > .list-group-item, .card-body{
 	background-color:#313244 !important;
 	color: #cdd6f4 !important;
 }
