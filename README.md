@@ -13,3 +13,4 @@ Menggunakan color pallete dari [Catppuccin](https://github.com/catppuccin/)
 
 ### Issues
 - Belum 100% semuanya dark mode.
+- Banyak style yang tidak konsisten (feel free to do pr hehe)
