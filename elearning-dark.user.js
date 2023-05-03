@@ -90,12 +90,7 @@ addCss(`
 	border-radius: 5px;
 }
 
-#jump-to-activity{
-	background-color: #6c7086 !important;
-	color: #cdd6f4 !important;
-	border: none !important;
-}
-.singleselect{
+.singleselect, #jump-to-activity{
 	background-color: #6c7086 !important;
 	color: #cdd6f4 !important;
 	border: none !important;
@@ -103,7 +98,7 @@ addCss(`
 
 .activity, .nav > .nav-item .active, .forumpost, .post-content-container, .summary{
 	background-color: #585b70 !important;
-	color: #181825 !important;
+	color: #cdd6f4 !important;
 	border-radius: 5px;
 }
 
