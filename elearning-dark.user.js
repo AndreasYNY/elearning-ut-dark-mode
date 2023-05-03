@@ -43,9 +43,6 @@ addCss(`
 --dark: #11111b !important;
 }
 
-body, .breadcrumb a{
-	color: #cdd6f4 !important;
-}
 #main-header, #subheader, .main-menu li > a{
 	background-color: #1e1e2e !important;
 	color: #cdd6f4 !important;
@@ -115,7 +112,7 @@ body, .breadcrumb a{
 	border-left: solid 1px #fff;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, a, .card-title, .contentafterlink{
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, a, .card-title, .contentafterlink, body, .breadcrumb{
 	color: #cdd6f4 !important;
 }
 
