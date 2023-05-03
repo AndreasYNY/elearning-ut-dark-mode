@@ -5,17 +5,17 @@
 // @author      AndreasYNY
 // @grant       none
 // @version     0.1
-// @license			Apache License 2.0
+// @license		Apache License 2.0
 // @namespace   https://github.com/AndreasYNY/elearning-ut-dark-mode
 // ==/UserScript==
 
 // https://greasyfork.org/users/154395
 function addCss(cssString) {
-        var head = document.getElementsByTagName('head')[0];
-        var newCss = document.createElement('style');
-        newCss.type = "text/css";
-        newCss.innerHTML = cssString;
-        head.appendChild(newCss);
+	var head = document.getElementsByTagName('head')[0];
+	var newCss = document.createElement('style');
+	newCss.type = "text/css";
+	newCss.innerHTML = cssString;
+	head.appendChild(newCss);
 }
 
 addCss(`
@@ -171,6 +171,11 @@ addCss(`
 		color: #cdd6f4 !important;
 		border: nonde !important;
 }
+.singleselect{
+		background-color: #6c7086 !important;
+		color: #cdd6f4 !important;
+		border: nonde !important;
+}
 
 .summary{
 		background-color: #7f849c !important;
@@ -180,6 +185,18 @@ addCss(`
 
 .sliding-panel{
 		background-color:#313244 !important;
+}
+
+.forumpost{
+		background-color: #585b70 !important;
+		color: #181825 !important;
+		border-radius: 5px;
+}
+
+.post-content-container{
+		background-color: #585b70 !important;
+		color: #cdd6f4 !important;
+		border: none !important;
 }
 
 `);
