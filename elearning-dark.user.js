@@ -9,7 +9,7 @@
 // @namespace   https://github.com/AndreasYNY/elearning-ut-dark-mode
 // ==/UserScript==
 
-// https://greasyfork.org/users/154395
+// https://greasyfork.org/en/scripts/386303-modern-design-and-dark-theme-for-soundcloud
 function addCss(cssString) {
   var head = document.getElementsByTagName("head")[0];
   var newCss = document.createElement("style");
