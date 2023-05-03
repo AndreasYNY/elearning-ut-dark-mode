@@ -42,9 +42,6 @@ addCss(`
 --light: #cdd6f4 !important;
 --dark: #11111b !important;
 }
-`);
-
-addCss(`
 
 body{
 	color: #cdd6f4 !important;
@@ -117,7 +114,23 @@ div.p-1:nth-child(2){
 	color: #cdd6f4 !important;
 	border: solid 1px #fff;
 }
-
+.student-panel-b, student-panel-a{
+	background-color:#313244 !important;
+	color: #cdd6f4 !important;
+}
+.course-panel-content{
+	background-color:#313244 !important;
+	color: #cdd6f4 !important;
+}
+.modal-header{
+	background-color:#181825 !important;
+	color: #cdd6f4 !important;
+	background-image: none !important;
+}
+.box-contacts, .boxlist{
+	background-color:#313244 !important;
+	color: #cdd6f4 !important;
+}
 .card-title{
 	color: #cdd6f4 !important;
 }
@@ -155,9 +168,6 @@ a{
 	color: #cdd6f4 !important;
 }
 
-`);
-
-addCss(`
 .panel-link{
 	background-color: #45475a !important;
 	color: #cdd6f4 !important;
@@ -240,9 +250,6 @@ addCss(`
 	border-left: solid 1px #fff;
 }
 
-`);
-
-addCss(`
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 	color: #cdd6f4 !important;
 }
