@@ -146,6 +146,10 @@ a{
 	color: #cdd6f4 !important;
 }
 
+.section-navigation{
+	background-color:#313244 !important;
+}
+
 #bottom-info > .bar{
 	background-color:#313244 !important;
 	color: #cdd6f4 !important;
