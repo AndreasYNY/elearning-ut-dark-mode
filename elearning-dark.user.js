@@ -5,7 +5,7 @@
 // @author      AndreasYNY
 // @grant       none
 // @version     0.1
-// @license		Apache License 2.0
+// @license	GPL v3.0
 // @namespace   https://github.com/AndreasYNY/elearning-ut-dark-mode
 // ==/UserScript==
 
