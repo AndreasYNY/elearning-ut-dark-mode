@@ -53,12 +53,12 @@ addCss(`
 	background-color: #585b70 !important;
 }
 
-.fcontainer, .popover-region-footer-container, .popover-region-header-container, .popover-region-content-container,.dropdown-menu, .dropdown-item, #page-header, #site-menu, .section-inner, #main-content, #region-main, .sliding-panel, #bottom-info > .bar, .section-navigation, #footer , #bottom-info, .card-footer, .box-contacts, .boxlist, .course-panel-content, .student-panel-b, student-panel-a, .card-header, .card-text, .list-group, .message, .bg-light, .bg-white, div.p-1:nth-child(2), .list-group > .list-group-item, .card-body{
+#login, .fcontainer, .popover-region-footer-container, .popover-region-header-container, .popover-region-content-container,.dropdown-menu, .dropdown-item, #page-header, #site-menu, .section-inner, #main-content, #region-main, .sliding-panel, #bottom-info > .bar, .section-navigation, #footer , #bottom-info, .card-footer, .box-contacts, .boxlist, .course-panel-content, .student-panel-b, student-panel-a, .card-header, .card-text, .list-group, .message, .bg-light, .bg-white, div.p-1:nth-child(2), .list-group > .list-group-item, .card-body{
 	background-color: #313244 !important;
 	color: #cdd6f4 !important;
 }
 
-.fcontainer{
+.fcontainervg  4{
 	border: none !important;
 }
 
@@ -83,6 +83,11 @@ addCss(`
 	background-color: #45475a !important;
 	color: #cdd6f4 !important;
 	border-radius: 5px;
+}
+
+.btn-microsoft{
+	border: none !important;
+	background: transparent !important;
 }
 
 .moodle-tabs{
