@@ -5,7 +5,7 @@
 // @author      AndreasYNY
 // @grant       none
 // @version     0.1
-// @license	GPL v3.0
+// @license		Apache License 2.0
 // @namespace   https://github.com/AndreasYNY/elearning-ut-dark-mode
 // ==/UserScript==
 
@@ -53,7 +53,7 @@ addCss(`
 	background-color: #585b70 !important;
 }
 
-#login, .fcontainer, .popover-region-footer-container, .popover-region-header-container, .popover-region-content-container,.dropdown-menu, .dropdown-item, #page-header, #site-menu, .section-inner, #main-content, #region-main, .sliding-panel, #bottom-info > .bar, .section-navigation, #footer , #bottom-info, .card-footer, .box-contacts, .boxlist, .course-panel-content, .student-panel-b, student-panel-a, .card-header, .card-text, .list-group, .message, .bg-light, .bg-white, div.p-1:nth-child(2), .list-group > .list-group-item, .card-body{
+body, #login, .fcontainer, .popover-region-footer-container, .popover-region-header-container, .popover-region-content-container,.dropdown-menu, .dropdown-item, #page-header, #site-menu, .section-inner, #main-content, #region-main, .sliding-panel, #bottom-info > .bar, .section-navigation, #footer , #bottom-info, .card-footer, .box-contacts, .boxlist, .course-panel-content, .student-panel-b, student-panel-a, .card-header, .card-text, .list-group, .message, .bg-light, .bg-white, div.p-1:nth-child(2), .list-group > .list-group-item, .card-body{
 	background-color: #313244 !important;
 	color: #cdd6f4 !important;
 }
