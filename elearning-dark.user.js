@@ -4,9 +4,10 @@
 // @match       *://elearning.ut.ac.id/*
 // @author      AndreasYNY
 // @grant       none
-// @version     0.1
+// @version     0.2
 // @license		Apache License 2.0
 // @namespace   https://github.com/AndreasYNY/elearning-ut-dark-mode
+// @updateURL	https://github.com/AndreasYNY/elearning-ut-dark-mode/raw/main/elearning-dark.user.js
 // ==/UserScript==
 
 // https://greasyfork.org/en/scripts/386303-modern-design-and-dark-theme-for-soundcloud
