@@ -53,7 +53,7 @@ addCss(`
 	background-color: #585b70 !important;
 }
 
-body, #login, .fcontainer, .popover-region-footer-container, .popover-region-header-container, .popover-region-content-container,.dropdown-menu, .dropdown-item, #page-header, #site-menu, .section-inner, #main-content, #region-main, .sliding-panel, #bottom-info > .bar, .section-navigation, #footer , #bottom-info, .card-footer, .box-contacts, .boxlist, .course-panel-content, .student-panel-b, student-panel-a, .card-header, .card-text, .list-group, .message, .bg-light, .bg-white, div.p-1:nth-child(2), .list-group > .list-group-item, .card-body{
+.forumpost, body, #login, .fcontainer, .popover-region-footer-container, .popover-region-header-container, .popover-region-content-container,.dropdown-menu, .dropdown-item, #page-header, #site-menu, .section-inner, #main-content, #region-main, .sliding-panel, #bottom-info > .bar, .section-navigation, #footer , #bottom-info, .card-footer, .box-contacts, .boxlist, .course-panel-content, .student-panel-b, student-panel-a, .card-header, .card-text, .list-group, .message, .bg-light, .bg-white, div.p-1:nth-child(2), .list-group > .list-group-item, .card-body{
 	background-color: #313244 !important;
 	color: #cdd6f4 !important;
 }
@@ -90,6 +90,11 @@ body, #login, .fcontainer, .popover-region-footer-container, .popover-region-hea
 	background: transparent !important;
 }
 
+.btn-microsoft, p{
+	color: #cdd6f4 !important;
+	background: transparent !important;
+}
+
 .moodle-tabs{
 	border-radius: 5px;
 }
@@ -100,8 +105,8 @@ body, #login, .fcontainer, .popover-region-footer-container, .popover-region-hea
 	border: none !important;
 }
 
-.activity, .nav > .nav-item .active, .forumpost, .post-content-container, .summary{
-	background-color: #585b70 !important;
+.activity, .nav > .nav-item .active, .forumpost, .post-content-container, .summary, #main-content .theme-table-wrap.wider, #main-content .theme-table-wrap{
+	background-color: inherit !important;
 	color: #cdd6f4 !important;
 	border-radius: 5px;
 }
@@ -111,7 +116,7 @@ body, #login, .fcontainer, .popover-region-footer-container, .popover-region-hea
 	border-left: solid 1px #fff;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, a, .card-title, .contentafterlink, body, .breadcrumb{
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, a, .card-title, .contentafterlink, body, .breadcrumb, .btn .icon{
 	color: #cdd6f4 !important;
 }
 
@@ -121,4 +126,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, a, .card-title, .contentaf
 	border-radius: 5px;
 }
 
+#main-content .theme-table-wrap.wider table, #main-content .theme-table-wrap table{
+	background-color: #313244 !important;
+	color: #cdd6f4 !important;
+	border: none;
+	border-radius: 5px;
+}
+
+td{
+	padding: 5px;
+}
+
+.btn.btn-icon:hover, .btn.btn-icon:focus{
+	background-color: #34434d !important;
+}
 `);
